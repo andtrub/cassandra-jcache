@@ -46,12 +46,14 @@ import javax.cache.processor.EntryProcessorException;
 import javax.cache.processor.EntryProcessorResult;
 import javax.cache.processor.MutableEntry;
 
+
 /**
  * Implementation of a {@link Cache} that wraps an underlying ehcache.
  *
  * @param <K> the type of keys used by this JCache
  * @param <V> the type of values that are loaded by this JCache
  */
+
 public class JCache<K, V> implements Cache<K, V> {
 
     private static final Object NOT_THERE = new Object();
